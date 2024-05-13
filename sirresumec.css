@@ -1,6 +1,19 @@
-html {
-    scroll-behavior: smooth;
+body{
+  background: var(--gradient);
+    
 }
+:root {
+  --theme: black;
+  --gradient: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+
+html {
+  /* background-color: var(--theme); */
+  scroll-behavior: smooth;
+}
+
+
 
 #intro{
   
@@ -9,22 +22,26 @@ html {
     justify-content: space-around;
 
 }
-#item1{
-  padding-right: 600px;
-  padding-top: 70px;
+#item2{
+  display: flex;
+  align-items: center;
 }
 body, ul {
     margin: 0;
     padding: 0;
+    /* background-color: var(--gradient);
+ */
 }
 
-  
   /* Styling the top bar */
   .top-bar {
-    background-color: #333;
+    position: sticky;
+    top:0;
+    left: 0;
     display: flex;
-    padding-left: 750px;
+    background-color: #333;
     color: white;
+    justify-content: end;
     font-size: large;
     height: 40px;
   }
@@ -50,11 +67,8 @@ body, ul {
     background-color: #555;
   }
   #photo{
-    height: 530px;
-    width: 500px;
-    position: absolute;
-    right: 50px;
-    top: 80px;
+    height: 450px;
+    width: 400px;
     border: #333 solid 2px;
     border-radius: 50%;
   }
@@ -67,13 +81,13 @@ body, ul {
     font-family: 'Times New Roman', Times, serif;
     font-size: 70px;
     text-decoration: bold;
-    line-height: 0.5px;
     text-decoration: underline 2px;
     color: #020906;
   }
   #istpage{
    height: 100vh;
-    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    background: var(--gradient);
+    
   }
 #s1{
   font-size: 40px;
