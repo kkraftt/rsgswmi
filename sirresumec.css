@@ -104,6 +104,7 @@ li{
 #education , #teaching , #achievements{
   /* min-height: 100px; */
   font-size: 20px;
+  padding-left: 40px;
 
 }
 .heading{
@@ -114,9 +115,11 @@ li{
 #research{
 /* min-height: 100px; */
 font-size: 20px;
+  padding-left:20px;
 }
 #experience{
   font-family: Calibri, sans-serif;
+  padding-left:20px;
 }
 #experience table tr td{
   border-bottom: 1px solid black;
