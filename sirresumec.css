@@ -85,7 +85,7 @@ body, ul {
     color: #020906;
   }
   #istpage{
-   height: 90vh;
+   height: 100vh;
     background: var(--gradient);
     
   }
@@ -96,7 +96,6 @@ body, ul {
   font-size: 20px;
 }
 li{
-  list-style-type: bullet;
   margin-left : 40px;
 }
 #research{
