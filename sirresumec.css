@@ -1,6 +1,6 @@
 body{
   background: var(--gradient);
-    
+    font-family:sans-serif;
 }
 :root {
   --theme: black;
