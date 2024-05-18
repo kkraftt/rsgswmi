@@ -97,6 +97,7 @@ body, ul {
 }
 li{
   margin-left : 20px;
+  margin-up: 7px;
 }
 #research{
   display: block;
