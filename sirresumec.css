@@ -81,7 +81,7 @@ body, ul {
     font-family: 'Times New Roman', Times, serif;
     font-size: 70px;
     text-decoration: bold;
-    text-decoration: underline 2px;
+    text-decoration: underline 2px black;
     color: #020906;
   }
   #istpage{
